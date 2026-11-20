@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lidar360-plugin",
+  "version": "1.0.0",
+  "description": "LiDAR point cloud processing expert for LiDAR360: classification, terrain/DEM, forestry, and full workflow guidance.",
+  "author": {
+    "name": "Lidar360",
+    "email": "greenvalleylidar@gmail.com"
+  },
+  "keywords": [
+    "lidar",
+    "point-cloud",
+    "forestry",
+    "terrain"
+  ],
+  "extensions": {
+    "com.doubao": {
+      "displayName": {
+        "zh": "LiDAR360",
+        "en": "LiDAR360"
+      },
+      "displayDescription": {
+        "zh": "激光雷达点云处理专家，覆盖点云分类、地形建模、林业单木分割，提供操作流程、参数设置与排坑指导。",
+        "en": "LiDAR point cloud expert for LiDAR360, covering classification, terrain modeling, and tree segmentation, with workflow, parameter, and troubleshooting guidance."
+      },
+      "icon": "./assets/expert.png",
+      "chatIcon": "./assets/expert.png"
+    }
+  }
+}

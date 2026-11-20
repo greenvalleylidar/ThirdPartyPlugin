@@ -1,0 +1,57 @@
+# Release archives, historical package copies, and local demo videos
+/releases/
+/Video/
+
+# Excluded third-party developer plugin
+/senior-developer/
+
+# Generated local integration-test sessions (keep test source files)
+/Lidar360-plugin/tests/official-gateway-test/
+/Lidar360-plugin/tests/gvagent-*/
+
+# Download metadata and editor backup files
+.downloaded_at
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local environment variables (keep shareable templates)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# JavaScript dependencies and package-manager logs
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime logs and process identifiers
+*.log
+*.pid
+
+# OS-generated files and temporary Word documents
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*.docx
+
+# Plugin manifests, bundled mcp-tool.exe files, fonts, and documentation
+# are intentional repository content; do not ignore them globally.

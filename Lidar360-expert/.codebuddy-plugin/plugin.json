@@ -1,0 +1,42 @@
+{
+  "name": "360expert",
+  "version": "1.1.0",
+  "description": "LiDAR point cloud processing expert for LiDAR360: classification, terrain/DEM, forestry, and full workflow guidance.",
+  "author": {
+    "name": "Lidar360",
+    "email": "greenvalleylidar@gmail.com"
+  },
+  "agents": ["./agents/360expert.md"],
+  "skills": ["./skills/lidar360"],
+  "expertType": "agent",
+  "agentName": "360expert",
+  "displayName": {
+    "en": "Little Earth",
+    "zh": "小土"
+  },
+  "profession": {
+    "en": "Point Cloud Processing Expert",
+    "zh": "点云处理专家"
+  },
+  "displayDescription": {
+    "en": "LiDAR point cloud expert for LiDAR360, covering classification, terrain modeling, and tree segmentation, with workflow, parameter, and troubleshooting guidance.",
+    "zh": "激光雷达点云处理专家，覆盖点云分类、地形建模、林业单木分割，提供操作流程、参数设置与排坑指导。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "04-DataAI",
+  "defaultInitPrompt": {
+    "zh": "帮我分析一下这个点云数据",
+    "en": "Please help me analyze this point cloud data"
+  },
+  "plugin": "360expert",
+  "tags": [
+    { "en": "Point Cloud", "zh": "点云处理" },
+    { "en": "Forestry Survey", "zh": "林业调查" },
+    { "en": "LiDAR", "zh": "激光雷达" }
+  ],
+  "quickPrompts": [
+    { "en": "Please help me analyze this point cloud data", "zh": "帮我分析一下这个点云数据" },
+    { "zh": "如何对点云进行地面点分类？", "en": "How do I classify ground points in the point cloud?" },
+    { "zh": "怎么用点云生成地形DEM并提取单木？", "en": "How do I generate a terrain DEM and segment individual trees?" }
+  ]
+}
